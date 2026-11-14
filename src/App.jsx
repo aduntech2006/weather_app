@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { fetchWeather, fetchWeatherByCoords } from './components/services/weatherService.js';
+import { fetchWeather, fetchWeatherByCoords } from './components/services/WeatherService.js';
 
 function App() {
   const [city, setCity] = useState('');
